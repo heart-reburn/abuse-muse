@@ -1,6 +1,6 @@
 ---
 name: abuse-muse
-description: Checks every prompt, file, or task before it goes to Meta's Muse assistant, so no personal, secret, work, or indirectly identifying data is sent. Scans, redacts, re-scans, and gives a send, pause, or block decision. Use before sending anything to Muse that might contain personal data, secrets, or clues to who the user is, and to confirm that public, generic, or invented-data tasks are safe to send.
+description: Checks a prompt, file, or task before it goes to Meta's Muse assistant, so no personal, secret, work, or indirectly identifying data is sent. Scans, redacts, re-scans, and gives a send, pause, or block decision. Use only when the user mentions sending, pasting, or asking something in Muse and the content might contain personal data, secrets, or clues to who they are. Not for ordinary tasks that don't involve Muse.
 ---
 
 # abuse-muse
@@ -74,7 +74,7 @@ See `references/green-categories.md`. Classify a green task by its main intent: 
 
 ## How to present the result
 
-- Green: the prompt exactly as the user can paste it, with nothing personal in it.
+- Green: the prompt exactly as the user can paste it, with nothing personal in it. Stop there: no extra warnings or reminders for a plainly public task.
 - Yellow: the clues found, the generalized version, and a safer alternative.
 - Red: the type of data at risk and the local alternative.
 - Don't repeat restricted details the user didn't include.

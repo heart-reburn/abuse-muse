@@ -59,6 +59,10 @@ It catches emails, API keys, bearer tokens, JWTs, private keys, URLs with tokens
 >
 > **Agent:** Yellow. Clues: age, job, city, hobby. Together they narrow you down a lot. Generalized: "I'm an adult with a desk job and a busy season in spring; plan climbing training around it." Send that?
 
+## Tests
+
+`skills/abuse-muse/evals/` has trigger tests (should and should not load) and behavior tests (what the skill does once loaded). Run them with `python3 scripts/run_evals.py trigger` and `python3 scripts/run_evals.py behavior` (needs the Claude CLI). `python3 scripts/validate.py` checks frontmatter and file links and runs in CI.
+
 ## Limits
 
 This is a checklist, not a security boundary. It cannot guarantee a prompt is safe, and the tracker only knows about prompts that went through it.
