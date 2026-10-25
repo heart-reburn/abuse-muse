@@ -1,0 +1,66 @@
+[
+  {
+    "query": "Can I paste this email thread into Muse to summarize it?",
+    "should_trigger": true
+  },
+  {
+    "query": "Check this prompt before I send it to Muse",
+    "should_trigger": true
+  },
+  {
+    "query": "I want Muse to fix my resume, here it is",
+    "should_trigger": true
+  },
+  {
+    "query": "Is it safe to ask Muse about my blood test results?",
+    "should_trigger": true
+  },
+  {
+    "query": "Clean this log file before I give it to Muse",
+    "should_trigger": true
+  },
+  {
+    "query": "I'm a nurse in Denver who climbs, can Muse plan my week?",
+    "should_trigger": true
+  },
+  {
+    "query": "Redact the API keys in this config so I can ask Muse for help",
+    "should_trigger": true
+  },
+  {
+    "query": "Can Muse read my whole notes folder?",
+    "should_trigger": true
+  },
+  {
+    "query": "What's the weather tomorrow?",
+    "should_trigger": false
+  },
+  {
+    "query": "Write a Python function to reverse a list",
+    "should_trigger": false
+  },
+  {
+    "query": "Explain how photosynthesis works",
+    "should_trigger": false
+  },
+  {
+    "query": "Fix the typo in README.md",
+    "should_trigger": false
+  },
+  {
+    "query": "Translate 'good morning' into Japanese",
+    "should_trigger": false
+  },
+  {
+    "query": "Summarize this public Wikipedia article for me",
+    "should_trigger": false
+  },
+  {
+    "query": "Make a workout plan for a beginner",
+    "should_trigger": false
+  },
+  {
+    "query": "What is 15% of 80?",
+    "should_trigger": false
+  }
+]

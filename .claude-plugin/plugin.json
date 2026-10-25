@@ -1,0 +1,11 @@
+{
+  "name": "abuse-muse",
+  "version": "0.1.0",
+  "description": "Check prompts before they go to Meta's Muse assistant: redact secrets and personal data, and decide send, pause, or block.",
+  "license": "MIT",
+  "author": {
+    "name": "heart-reburn",
+    "url": "https://github.com/heart-reburn"
+  },
+  "repository": "https://github.com/heart-reburn/abuse-muse"
+}

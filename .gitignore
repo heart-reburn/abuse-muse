@@ -1,0 +1,7 @@
+# Never commit a filled-in tracker or redaction output.
+revealed-clues-tracker.md
+*.mapping.json
+mapping*.json
+redacted*.txt
+restored*.txt
+__pycache__/

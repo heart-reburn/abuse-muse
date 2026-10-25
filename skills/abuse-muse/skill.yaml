@@ -1,0 +1,5 @@
+name: "abuse-muse"
+title: "abuse-muse"
+description: "Checks every prompt, file, or task before it goes to Muse, so no personal, secret, work, or indirectly identifying data is sent."
+category: "Work and knowledge"
+include_in_prompt: true

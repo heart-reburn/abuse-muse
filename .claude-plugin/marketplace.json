@@ -1,0 +1,12 @@
+{
+  "name": "abuse-muse",
+  "description": "A local privacy check for prompts sent to Meta's Muse assistant.",
+  "owner": { "name": "heart-reburn" },
+  "plugins": [
+    {
+      "name": "abuse-muse",
+      "source": "./",
+      "description": "Check prompts before they go to Muse: redact, re-scan, and decide send, pause, or block."
+    }
+  ]
+}
